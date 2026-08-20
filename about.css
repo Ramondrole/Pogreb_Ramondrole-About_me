@@ -1,0 +1,55 @@
+.about-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-wrapper h1 {
+    text-align: center;
+    border-left: none;
+    border-bottom: 6px solid var(--sehnsucht-red);
+    padding-bottom: 15px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.about-card {
+    background: var(--sehnsucht-panel);
+    border: 1px solid var(--sehnsucht-border);
+    border-bottom: 6px solid var(--sehnsucht-red);
+    padding: 30px 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    box-shadow: 8px 8px 0 rgba(0,0,0,0.5);
+}
+
+.about-card:hover {
+    transform: translate(-4px, -4px);
+    border-color: var(--sehnsucht-red);
+    box-shadow: 12px 12px 0 rgba(179, 27, 27, 0.25);
+}
+
+.card-icon {
+    font-size: 3.5rem;
+    color: var(--sehnsucht-red);
+    margin-bottom: 20px;
+}
+
+.about-card h3 {
+    color: #ffffff;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    color: var(--sehnsucht-metal);
+    font-size: 0.95rem;
+}
